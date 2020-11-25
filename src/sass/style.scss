@@ -1,0 +1,33 @@
+
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/animations";
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/title";
+
+
+* {
+    font-family: "Mueso Sans Cyrl" , sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import "blocks/carousel";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/catalog";
+@import "blocks/comment";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+
+@import "base/media";
+
+
